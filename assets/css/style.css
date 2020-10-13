@@ -1,0 +1,23 @@
+.space{
+    white-space: pre-line;
+}
+.marge{
+    margin-left: 47px;
+}
+input, .bleu, .violet, .magenta{
+    margin-bottom: 2px;
+}
+.spaceDiv{
+    margin-left: 15px;
+}
+.bleu, .bleu legend{
+    background-color: #2574a9;
+}
+.violet, .violet legend{
+    background-color: #9a12b3;
+}
+.magenta, .magenta legend{
+    background-color: #db0a5b;
+}
+
+

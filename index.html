@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <title>exercice 9</title>
+    </head>
+    <body>
+        <form method="post" action="form.php">
+            <fieldset class="bleu"><legend>Votre Identité</legend>
+            <div class="space spaceDiv">
+                <label for="Nom">1. Nom : </label><input type="text" id="nom" name="nom" placeholder="Nom" minlength="2" maxlength="25">
+                <label for="Prénom">2. Prénom : </label><input type="text" id="prénom" name="prénom" placeholder="Prénom" minlength="2" maxlength="25">
+                <label for="Adresse mail">3. Adresse mail : </label><input type="text" id="adresse mail" name="adresse mail" placeholder="Adresse mail" minlength="2" maxlength="25">
+            </fieldset>
+        </div>
+            <fieldset class="violet"><legend>Adresse de livraison</legend>
+            <div class="space spaceDiv">
+                <label for="Adresse">1. Adresse : </label><textarea name="adresse" cols="30" rows="10"></textarea>
+                <label for="Code postal">2. Code postal : </label><input type="text" id="code postal" name="code postal" placeholder="Code postal" minlength="2" maxlength="25">
+                <label for="Ville"></label>3. Ville : <input type="text" id="ville" name="ville" placeholder="Ville" minlength="2" maxlength="25">  
+            </fieldset>
+        </div>
+            <fieldset class="magenta"><legend>Information de réglement</legend>
+            <div class="space spaceDiv">
+                <label for="type de carte">Type de carte bancaire : </label>
+                    <input type="radio" id="visa" name="carte" class="marge"><label for="VISA">VISA</label>
+                    <input type="radio" id="Mastercard" name="carte" class="marge"><label for="Mastercard">Mastercard</label>
+                <label for="Numéro de carte">2. Numéro de carte : </label><input type="text" id="Numéro de carte" name="Numéro de carte" placeholder="Numéro de carte" minlength="2" maxlength="25">
+                <label for="Code de sécurité">3. Code de sécurité : </label><input type="text" id="Code de sécurité" name="Code de sécurité" placeholder="Code de sécurité" minlength="2" maxlength="25">
+                <label for="Nom du titulaire">4. Nom du titulaire : </label><input type="text" id="Nom du titulaire" name="Nom du titulaire" placeholder="Nom du titulaire" minlength="2" maxlength="25">
+            </fieldset>
+        </div>
+        <input type="submit" value="J'achète!">
+    </form>
+    </body>
+</html>
+
